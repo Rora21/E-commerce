@@ -5,6 +5,7 @@ import Products from './componets/products'
 import About from './componets/about'
 import Contact from './componets/Contact'
 import Footer from './componets/footer'
+import { CartContext } from './componets/CartContext'
 
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
@@ -17,6 +18,7 @@ function App() {
       <Route path='/products' element={<Products/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/Contact' element={<Contact/>}/>
+      <Route path='/CartContext' element={<CartContext/>}/>
      </Routes>
       <Footer/>
 

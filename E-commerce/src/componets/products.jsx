@@ -5,8 +5,11 @@ import image2 from '../assets/image/pillow.jpg'
 import image3 from '../assets/image/rora.jpg'
 import image4 from '../assets/image/image.jpg'
 import image5 from '../assets/image/cushion.jpg'
+import { CartContext } from './CartContext'
 
-function Products() {
+function Products () {
+  
+  
   
   const products=[
  {id:1,img:image1,name:'pillow',price:200},

@@ -16,6 +16,7 @@ function Nav() {
         <Link to='/products'className="text-[#83723A] font-semibold cursor-pointer">product</Link>
         <Link to='/About' className="text-[#83723A] font-semibold cursor-pointer">About</Link>
         <Link to='/Contact' className="text-[#83723A] font-semibold cursor-pointer">Contact</Link>
+        <Link to="/cart" className="text-white hover:text-[#83723A]">Cart</Link>
       </ul>
 
       </div>
