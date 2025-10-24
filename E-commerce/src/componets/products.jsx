@@ -18,7 +18,7 @@ function Products() {
   return (
     <div>
      
-    { products.map(function(p,id) =>(
+    { products.map((p,id) =>(
       <Productcard
       key={id}
       image={p.img}
