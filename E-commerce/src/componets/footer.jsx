@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div className="bg-white shadow mt-8">
-      <div className="max-w-6xl mx-auto px-4 py-4 text-center text-gray-600">
-        &copy; {new Date().getFullYear()} Sunrise Store. All rights reserved.
-
+    <footer className="bg-[#83723A] text-white py-8 text-center">
+      <div className="flex justify-center gap-6 mb-4">
+        <a href="#" className="hover:text-gray-200"><FaFacebook size={20} /></a>
+        <a href="#" className="hover:text-gray-200"><FaInstagram size={20} /></a>
+        <a href="#" className="hover:text-gray-200"><FaTwitter size={20} /></a>
       </div>
-    </div>
-  )
+      <p className="text-sm">© {new Date().getFullYear()} Flamingo Designs. All rights reserved.</p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

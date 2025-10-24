@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom"
 
 function Nav() {
   return (
@@ -12,10 +12,10 @@ function Nav() {
        </div>
        <div>
     <ul className="flex gap-12 text-[15px] font-light">
-        <li className="text-[#83723A] font-semibold cursor-pointer">Home</li>
-        <li className="text-[#83723A] font-semibold cursor-pointer">product</li>
-        <li className="text-[#83723A] font-semibold cursor-pointer">About</li>
-        <li className="text-[#83723A] font-semibold cursor-pointer">Contact</li>
+        <Link to='/' className="text-[#83723A] font-semibold cursor-pointer">Home</Link>
+        <Link to='/products'className="text-[#83723A] font-semibold cursor-pointer">product</Link>
+        <Link to='/About' className="text-[#83723A] font-semibold cursor-pointer">About</Link>
+        <Link to='/Contact' className="text-[#83723A] font-semibold cursor-pointer">Contact</Link>
       </ul>
 
       </div>
